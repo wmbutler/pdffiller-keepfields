@@ -23,12 +23,6 @@
     "name": "John Taylor, David Baldwynn and Bill Butler"
   },
   "license": "MIT",
-  "readmeFilename": "README.md",
-  "gitHead": "dc344fd81d90d0434dcc253d9ee14e4328b680dd",
-  "_id": "pdffiller@0.0.8",
-  "_shasum": "416c724b748a5e0caf494fb66b043d450b8a3b9a",
-  "_from": "whitef0x0/pdffiller",
-  "_resolved": "git://github.com/whitef0x0/pdffiller.git#dc344fd81d90d0434dcc253d9ee14e4328b680dd",
   "devDependencies": {
     "mocha": "~2.4.5",
     "should": "~6.0.1"
