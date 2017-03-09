@@ -23,7 +23,7 @@ var pdfFiller = require('pdffiller-keepfields');
 
 ## Examples
 
-#### 1.Fill PDF with existing FDF Data
+#### Fill PDF with existing FDF Data
 ```
 javascript
 var pdfFiller   = require('pdffiller-keepfields');
@@ -54,8 +54,7 @@ resulting PDF will be read-only.
 
 Alternatively,
 
-```
-javascript
+```javascript
 
 var shouldFlatten = false;
 
@@ -70,9 +69,8 @@ Calling
 still editable, as per the `pdftk` command specification.
 
 
-#### 2. Generate FDF Template from PDF
-```
-javascript
+#### Generate FDF Template from PDF
+```javascript
 var pdfFiller   = require('pdffiller-keepfields');
 
 var sourcePDF = "test/test.pdf";
@@ -88,7 +86,7 @@ var FDF_data = pdfFiller.generateFDFTemplate( sourcePDF, nameRegex, function(err
 ```
 
 This will print out this
-```
+```json
 {
     "last_name" : "",
     "first_name" : "",
@@ -101,9 +99,8 @@ This will print out this
 };
 ```
 
-#### 3. Map form fields to PDF fields
-```
-javascript
+#### Map form fields to PDF fields
+```javascript
 var pdfFiller = require('pdffiller-keepfields');
 
 var convMap = {
@@ -165,7 +162,7 @@ console.log(mappedFields);
 ```
 
 This will print out the object below.
-```
+```json
 {
     "last_name" : "John",
     "first_name" : "Doe",
@@ -178,9 +175,8 @@ This will print out the object below.
 };
 ```
 
-#### 4. Convert fieldJson to FDF data
-```
-javascript
+#### Convert fieldJson to FDF data
+```javascript
 var pdfFiller   = require('pdffiller-keepfields');
 
 var fieldJson = [
@@ -231,7 +227,7 @@ console.log(FDFData)
 ```
 
 This will print out this
-```
+```json
 {
     "last_name" : "John",
     "first_name" : "Doe",
