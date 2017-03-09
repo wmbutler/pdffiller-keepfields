@@ -9,7 +9,9 @@ NOTE: pdffiller failed to keep data if it was already included on a form. I adde
 Quick start
 -----------
 
-First, run `npm install pdffiller-keepfields --save` for your app.
+```bash
+npm install pdffiller-keepfields --save
+```
 
 Import the module using:
 
