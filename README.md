@@ -13,8 +13,7 @@ First, run `npm install pdffiller-keepfields --save` for your app.
 
 Import the module using:
 
-```
-js
+```js
 var pdfFiller = require('pdffiller-keepfields');
 
 // ...
@@ -24,8 +23,7 @@ var pdfFiller = require('pdffiller-keepfields');
 ## Examples
 
 #### Fill PDF with existing FDF Data
-```
-javascript
+```javascript
 var pdfFiller   = require('pdffiller-keepfields');
 
 var sourcePDF = "test/test.pdf";
