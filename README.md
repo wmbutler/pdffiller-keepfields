@@ -1,10 +1,10 @@
 PDF Filler (Node.js)
 ======
-[![NPM](https://nodei.co/npm/pdffiller.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/pdffiller/)
+[![NPM](https://nodei.co/npm/pdffiller-keepfields.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/pdffiller-keepfields/)
 
 A node.js PDF form field data filler and FDF generator toolkit. This essentially is a wrapper around the PDF Toolkit library <a target="_blank" href="http://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/">PDF ToolKit</a>.
 
-NOTE: pdffiller failed to keep data if it was already included on a form. I added some logic to retain this data if it exists.
+NOTE: pdffiller failed to keep data if it was already included on a form. I added some logic to retain this data if it exists and released pdffiller-keepfields as a substitute.
 
 Quick start
 -----------
